@@ -10,11 +10,11 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "21924667"))
 API_HASH = getenv("API_HASH", "08d1e2b49f92a70a5d6c72fb4bc9147d")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6064502489:AAHToj7EYkRhVS8_WfhWZJmuTVeqIIeBudw")
+BOT_TOKEN = getenv("BOT_TOKEN", "5963562690:AAEdIfNw00jc5sFU-sHX9L_PB-GNscrFmYU")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001573382350"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ɴᴏᴛᴛʏʏ")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀʟᴏɴᴇ")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "6066032054").split()))
 
@@ -76,7 +76,7 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/b51b25d0bb6a3b315d7b3.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/fee97669cbcbebc663e67.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
