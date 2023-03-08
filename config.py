@@ -7,16 +7,16 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "21924667"))
+API_HASH = getenv("API_HASH", "08d1e2b49f92a70a5d6c72fb4bc9147d")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "6064502489:AAHToj7EYkRhVS8_WfhWZJmuTVeqIIeBudw")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001573382350")"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ɴᴏᴛᴛʏʏ")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1356469075").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6066032054").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -25,12 +25,12 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AnonymousX1025/AnonX
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/DevilsHeavenMF")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AloneXNetwork")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AloneXChatGroup")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
@@ -45,8 +45,8 @@ PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "3"))
 
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "315d8e2d77b74ad3ad99547238f56ee8")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "2b82b996eb2c4161b21119b82700d67a")
 
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "5"))
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "50"))
@@ -58,7 +58,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQFOizsAf7_9y-tuSQ7aoK0o5rbCPqG88832Ijx2C7UrBQDJdcnlFr950VX8Nb-QNtYnDGn77SH64DA6HG4wa3gS8y1-0RN8q4ZREaOQCHTRD5zMtB6L3jX3SM-E-q0_YYfpt-egzkh5rOtymHCN59QsM3LRodT0E4H_KGl5FvcoVk31ZozvR93dmuRLXO4xoBQ87-5kSSjb0tTo9O5s4fJODsG11flvgLGEFPmWB2BA9_Sopmmx8gY8FBt8Toa4jUgc64Lj6A1ssEtcn3Izo9-bz6ITUmrHUvzYN4g2ODP2bmIQjYCRgwt3D00gU0HS8_U-ECQ3lp0gRiomY49W8T8N-pazGgAAAAFJrhnnAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
