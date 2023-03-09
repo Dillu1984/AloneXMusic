@@ -61,7 +61,8 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="⚡️𝐂𝐇𝐀𝐓 𝐆𝐑𝐎𝐔𝐏⚡️", url=f"https://t.me/AloneXChatGroup"
+                text="⚡️𝐎𝐖𝐍𝐄𝐑⚡️", url=f"https://t.me/ll_ITZ_ALONE_ll"
+                text="🥀𝐋𝐎𝐕𝐄🥀", url=f"https://t.me/AloneXChatGroup"
             ),
         ],
         [
@@ -123,7 +124,8 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="⚡️𝐂𝐇𝐀𝐓 𝐆𝐑𝐎𝐔𝐏⚡️", url=f"https://t.me/AloneXChatGroup"
+                text="⚡️𝐎𝐖𝐍𝐄𝐑⚡️", url=f"https://t.me/ll_ITZ_ALONE_ll"
+                text="🥀𝐋𝐎𝐕𝐄🥀", url=f"https://t.me/AloneXChatGroup"
             ),
         ],
         [
@@ -157,7 +159,8 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⚡️𝐂𝐇𝐀𝐓 𝐆𝐑𝐎𝐔𝐏⚡️", url=f"https://t.me/AloneXChatGroup"
+                text="⚡️𝐎𝐖𝐍𝐄𝐑⚡️", url=f"https://t.me/ll_ITZ_ALONE_ll"
+                text="🥀𝐋𝐎𝐕𝐄🥀", url=f"https://t.me/AloneXChatGroup"
             ),
         ],
         [
@@ -188,7 +191,8 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⚡️𝐂𝐇𝐀𝐓 𝐆𝐑𝐎𝐔𝐏⚡️", url=f"https://t.me/AloneXChatGroup"
+                text="⚡️𝐎𝐖𝐍𝐄𝐑⚡️", url=f"https://t.me/ll_ITZ_ALONE_ll"
+                text="🥀𝐋𝐎𝐕𝐄🥀", url=f"https://t.me/AloneXChatGroup"
             ),
         ],
         [
