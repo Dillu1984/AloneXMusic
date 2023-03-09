@@ -49,7 +49,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="✨ sᴏᴜʀᴄᴇ ✨", url=f"https://t.me/ll_ITZ_ALONE_ll
+                text="✨ sᴏᴜʀᴄᴇ ✨", url=f"https://t.me/ll_ITZ_ALONE_ll"
             )
         ],
      ]
