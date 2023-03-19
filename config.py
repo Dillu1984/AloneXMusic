@@ -7,16 +7,16 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "21924667"))
-API_HASH = getenv("API_HASH", "08d1e2b49f92a70a5d6c72fb4bc9147d")
+API_ID = int(getenv("API_ID", "14408588"))
+API_HASH = getenv("API_HASH", "e4e340ca8f1c6a1c2c302d5d34cbfe72")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5963562690:AAEdIfNw00jc5sFU-sHX9L_PB-GNscrFmYU")
+BOT_TOKEN = getenv("BOT_TOKEN", "6225263826:AAHGCl5MNEucCHobKj9SMjMgOKBfsPxeYqw")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001573382350"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀʟᴏɴᴇ")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "HEARTLESS")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "6066032054").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5836915223").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AnonymousX1025/AnonX
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AloneXNetwork")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AloneXChatGroup")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/DSH_CLAN")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/DSH_CLAN")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -58,9 +58,9 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BQAz-soE9dRGgCKfHMT4hx1L1LFdHetqPFuLrHZJFnYdKH-9ESylweL2LCQWTYy5NOT8wW8mDxR8SUWm3rOzHIknpbLfnr7s9xs3WrH7YZgAZ02JI0iJlxtNAxl2DJalWIAxVj5u4fSgU1RiStUA_sbHd2fN97ypi3jdlnrkEz1I4LUzcpGwHA34C9wNLvCgM25N7CCUwzHZTWCTLi3GvhM4OCRCdHXKnpCxJYnn8XI-lDvqiJ3JXLu8mI4sDw98LaJoMjycRI0sHMHA8wBbh_VY6YOHvGQ8sBAqxMZQMTJwSTDxTIfZ9OFS1rElxDEU5k0aLzS4VcpCIfkwpb3ICD1TAAAAAUmuGecA")
-STRING2 = getenv("STRING_SESSION2", "AQCOIAS78CCHU5TjsPRVWHl749F6vM_HWUWfEdup7zOLJJQEhJPxd7-rbo0212_dHVpLJLq0LrcxAQ8UTcF1v_blZE0usQsgJHOXri8EVCwNPurJbxVBI8xLQuP8PgGGRxmYmVihDkplP3Ay5K-HNymm8097ux3OMuvIBXc5QVjXq7BhG40Kw5vm8PK_rmjUjW8ToSyS7mRl4_zwZg38W1pSdPy0qrs0K9ldwf9xrUdVUX6a6-CjZBkqIznsbGd9mTSRsGKHYQRHByu1CP0iMQuuVXYcOud_7IRN30SUCOsXnsodZYt7qEioftanAQYSVgBLFXMRMGpuqRos9QolzUIRAAAAATGSKtYA")
-STRING3 = getenv("STRING_SESSION3", "BQA_6NG1t7LxJCRZDV_SNecU4JpFFnrW-8Myrt0nQvBkhmDAfJ_hK4LQkGEC514Aea0faX6T2864Zxa3QJ_yhJaLQWwCUQZzKC1Y4EkIyUx4V6wI-mUlf-Kvoma5yX68VkpWEaHDP_iAVX08nWmOk6wVJ7t3WGw0e317guJFLeJyENNRlXsQXZTocB2gc6t5qND9Eme_NKvHINymsl5GBxKemDzgKGUEbyrCS9y1i7UJz1ZkByTkwG5raPEk-TQXlCfQcQZ_HgWbaoePE9dakNpy1HDse-TYhT9awyH3WFrVKlNS9NLCKJlDUGY6vJAb_SVg8pSAWaCxjnhsszoauia9asK9dAA")
+STRING1 = getenv("STRING_SESSION", "BQBF0is9bnigHL2pUMgQgZS-Ng31_H5GxqDodf28m1yD9pFbJcIDRTVjtHRGudvg0l-tpwEOFDouvU_PpKSTTbmcnTIGCGsICcIYIO9m7qdc4PkyiJGP-RhWn4IXxuqwZRFnUbZeR6DbUfbeEofCN-T6OtnERDH3bhrLCFF3eqQlGti4I3UPo713M0yBsxrKlgsRTknJz2JfFtRqDeFQg4Oi7nL339PTtwhoeGbf4WsA4Z3Zoc70TJ66K82QRtVkNghjKM1-Omy6THEHUs-6wF6j4e5-S-QoiMvgns3uerYMq8ZwSvvJ_1eSrbZxUg0Jl28JilJTHq2nw4og3IqgJOM4AAAAAS47opkA")
+STRING2 = getenv("STRING_SESSION2", None)
+STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
 
@@ -76,7 +76,7 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/fee97669cbcbebc663e67.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/013941564bf68efddcc17.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
