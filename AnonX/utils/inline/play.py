@@ -61,7 +61,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="🥀𝐉𝐎𝐈𝐍 𝐆𝐑𝐎𝐔𝐏🥀", url=f"https://t.me/AloneXChatGroup"
+                text="🥀𝐉𝐎𝐈𝐍 𝐂𝐇𝐀𝐍𝐍𝐄𝐋🥀", url=f"https://t.me/DSH_CLAN"
             ),
         ],
         [
@@ -123,7 +123,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="🥀𝐉𝐎𝐈𝐍 𝐆𝐑𝐎𝐔𝐏🥀", url=f"https://t.me/AloneXChatGroup"
+                text="🥀𝐉𝐎𝐈𝐍 𝐂𝐇𝐀𝐍𝐍𝐄𝐋🥀", url=f"https://t.me/DSH_CLAN"
             ),
         ],
         [
@@ -157,7 +157,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🥀𝐉𝐎𝐈𝐍 𝐆𝐑𝐎𝐔𝐏🥀", url=f"https://t.me/AloneXChatGroup"
+                text="🥀𝐉𝐎𝐈𝐍 𝐂𝐇𝐀𝐍𝐍𝐄𝐋🥀", url=f"https://t.me/DSH_CLAN"
             ),
         ],
         [
@@ -188,7 +188,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🥀𝐉𝐎𝐈𝐍 𝐆𝐑𝐎𝐔𝐏🥀", url=f"https://t.me/AloneXChatGroup"
+                text="🥀𝐉𝐎𝐈𝐍 𝐂𝐇𝐀𝐍𝐍𝐄𝐋🥀", url=f"https://t.me/DSH_CLAN"
             ),
         ],
         [
