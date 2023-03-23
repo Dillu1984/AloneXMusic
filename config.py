@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH", "e4e340ca8f1c6a1c2c302d5d34cbfe72")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "6225263826:AAHGCl5MNEucCHobKj9SMjMgOKBfsPxeYqw")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Dilwar:Alone@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001573382350"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "HEARTLESS")
 
